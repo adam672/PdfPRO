@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="settings_title">Ayarlar</string>
+    <string name="settings_language">Dil</string>
+    <string name="settings_current_language">Mevcut Dil</string>
+    <string name="settings_theme">Tema</string>
+    <string name="theme_light">A�?k</string>
+    <string name="theme_dark">Koyu</string>
+    <string name="theme_auto">Otomatik</string>
+    <string name="settings_ads">Reklamlar ve �deme</string>
+    <string name="settings_ads_enabled">Reklamlar etkin</string>
+    <string name="settings_ads_desc">Kripto �demeyle reklamlar? kal?c? olarak kald?r</string>
+    <string name="settings_ads_removed">Reklamlar kald?r?ld?</string>
+    <string name="settings_ads_verified_blockchain">Blockchain ile do?ruland?</string>
+    <string name="settings_remove_ads_btn">Reklamlar? Kald?r (Kripto)</string>
+    <string name="settings_verified_date">Do?ruland?</string>
+    <string name="settings_payment_method">Y�ntem</string>
+    <string name="settings_storage">Depolama</string>
+    <string name="settings_processed_files">??lenen dosyalar</string>
+    <string name="settings_total_size">Toplam boyut</string>
+    <string name="settings_cache_size">�nbellek boyutu</string>
+    <string name="settings_clear_cache">�nbelle?i temizle</string>
+    <string name="settings_delete_all">T�m�n� sil</string>
+    <string name="settings_delete_confirm_title">T�m dosyalar silinsin mi?</string>
+    <string name="settings_delete_confirm_msg">T�m i?lenen dosyalar kal?c? olarak silinecektir.</string>
+    <string name="settings_about">Hakk?nda</string>
+    <string name="settings_dev_info">PdfPRO ekibi taraf?ndan geli?tirildi</string>
+    <string name="settings_contact">Destekle ileti?ime ge�</string>
+    <string name="settings_privacy">Gizlilik politikas?</string>
+    <string name="settings_terms">Kullan?m ko?ullar?</string>
+    <string name="home_files_desc">PDF dosyalar?n? g�r�nt�le ve y�net</string>
+    <string name="home_fav_desc">Favorilere eri?</string>
+    <string name="home_ads_desc">Kripto �demeyle reklamlar? kal?c? olarak kald?r</string>
+</resources>

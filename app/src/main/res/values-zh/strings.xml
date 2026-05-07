@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="settings_title">??</string>
+    <string name="settings_language">??</string>
+    <string name="settings_current_language">????</string>
+    <string name="settings_theme">??</string>
+    <string name="theme_light">??</string>
+    <string name="theme_dark">??</string>
+    <string name="theme_auto">????</string>
+    <string name="settings_ads">?????</string>
+    <string name="settings_ads_enabled">?????</string>
+    <string name="settings_ads_desc">?????????????????</string>
+    <string name="settings_ads_removed">?????</string>
+    <string name="settings_ads_verified_blockchain">????????</string>
+    <string name="settings_remove_ads_btn">????????????</string>
+    <string name="settings_verified_date">????</string>
+    <string name="settings_payment_method">??</string>
+    <string name="settings_storage">??</string>
+    <string name="settings_processed_files">?????</string>
+    <string name="settings_total_size">???</string>
+    <string name="settings_cache_size">????</string>
+    <string name="settings_clear_cache">????</string>
+    <string name="settings_delete_all">??????</string>
+    <string name="settings_delete_confirm_title">???????</string>
+    <string name="settings_delete_confirm_msg">????????????????????</string>
+    <string name="settings_about">??</string>
+    <string name="settings_dev_info">PdfPRO ????</string>
+    <string name="settings_contact">????</string>
+    <string name="settings_privacy">????</string>
+    <string name="settings_terms">????</string>
+    <string name="home_files_desc">?????PDF??</string>
+    <string name="home_fav_desc">???????</string>
+    <string name="home_ads_desc">??????????????</string>
+</resources>

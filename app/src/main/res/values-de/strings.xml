@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="settings_title">Einstellungen</string>
+    <string name="settings_language">Sprache</string>
+    <string name="settings_current_language">Aktuelle Sprache</string>
+    <string name="settings_theme">Design</string>
+    <string name="theme_light">Hell</string>
+    <string name="theme_dark">Dunkel</string>
+    <string name="theme_auto">Automatisch</string>
+    <string name="settings_ads">Werbung &amp; Zahlung</string>
+    <string name="settings_ads_enabled">Werbung ist aktiv</string>
+    <string name="settings_ads_desc">Werbung dauerhaft mit Krypto-Zahlung entfernen</string>
+    <string name="settings_ads_removed">Werbung entfernt</string>
+    <string name="settings_ads_verified_blockchain">�ber Blockchain verifiziert</string>
+    <string name="settings_remove_ads_btn">Werbung entfernen (Krypto)</string>
+    <string name="settings_verified_date">Verifiziert</string>
+    <string name="settings_payment_method">Methode</string>
+    <string name="settings_storage">Speicher</string>
+    <string name="settings_processed_files">Verarbeitete Dateien</string>
+    <string name="settings_total_size">Gesamtgr��e</string>
+    <string name="settings_cache_size">Cache-Gr��e</string>
+    <string name="settings_clear_cache">Cache leeren</string>
+    <string name="settings_delete_all">Alle Dateien l�schen</string>
+    <string name="settings_delete_confirm_title">Alle Dateien l�schen?</string>
+    <string name="settings_delete_confirm_msg">Alle verarbeiteten Dateien werden dauerhaft gel�scht.</string>
+    <string name="settings_about">�ber</string>
+    <string name="settings_dev_info">Entwickelt vom PdfPRO-Team</string>
+    <string name="settings_contact">Support kontaktieren</string>
+    <string name="settings_privacy">Datenschutzrichtlinie</string>
+    <string name="settings_terms">Nutzungsbedingungen</string>
+    <string name="home_files_desc">PDF-Dateien durchsuchen und verwalten</string>
+    <string name="home_fav_desc">Auf Favoriten zugreifen</string>
+    <string name="home_ads_desc">Werbung dauerhaft mit Krypto entfernen</string>
+</resources>

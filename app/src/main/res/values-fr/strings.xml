@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="settings_title">Param�tres</string>
+    <string name="settings_language">Langue</string>
+    <string name="settings_current_language">Langue actuelle</string>
+    <string name="settings_theme">Th�me</string>
+    <string name="theme_light">Clair</string>
+    <string name="theme_dark">Sombre</string>
+    <string name="theme_auto">Auto</string>
+    <string name="settings_ads">Pubs &amp; Paiement</string>
+    <string name="settings_ads_enabled">Les pubs sont activ�es</string>
+    <string name="settings_ads_desc">Supprimer les pubs avec un paiement crypto</string>
+    <string name="settings_ads_removed">Pubs supprim�es</string>
+    <string name="settings_ads_verified_blockchain">V�rifi� via Blockchain</string>
+    <string name="settings_remove_ads_btn">Supprimer les pubs (Crypto)</string>
+    <string name="settings_verified_date">V�rifi�</string>
+    <string name="settings_payment_method">M�thode</string>
+    <string name="settings_storage">Stockage</string>
+    <string name="settings_processed_files">Fichiers trait�s</string>
+    <string name="settings_total_size">Taille totale</string>
+    <string name="settings_cache_size">Taille du cache</string>
+    <string name="settings_clear_cache">Vider le cache</string>
+    <string name="settings_delete_all">Supprimer tout</string>
+    <string name="settings_delete_confirm_title">Supprimer tous les fichiers ?</string>
+    <string name="settings_delete_confirm_msg">Tous les fichiers g�n�r�s seront supprim�s d�finitivement.</string>
+    <string name="settings_about">� propos</string>
+    <string name="settings_dev_info">D�velopp� par l\'�quipe PdfPRO</string>
+    <string name="settings_contact">Contacter le support</string>
+    <string name="settings_privacy">Politique de confidentialit�</string>
+    <string name="settings_terms">Conditions d\'utilisation</string>
+    <string name="home_files_desc">Parcourir et g�rer vos PDF</string>
+    <string name="home_fav_desc">Acc�der � vos favoris</string>
+    <string name="home_ads_desc">Supprimer les pubs avec un paiement crypto</string>
+</resources>

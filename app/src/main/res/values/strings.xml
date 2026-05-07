@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PdfPRO</string>
+    <string name="select_language">Select Your Language</string>
+    <string name="continue_btn">Continue</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_tools">Tools</string>
+    <string name="tab_files">Files</string>
+    <string name="tab_settings">Settings</string>
+    <string name="tab_favorites">Favorites</string>
+    <string name="coming_soon">Coming soon</string>
+    <string name="home_subtitle">Your all-in-one PDF toolkit</string>
+    <string name="home_files_desc">Browse and manage your PDF files</string>
+    <string name="home_fav_desc">Access your favorite files</string>
+    <string name="home_ads_desc">Remove ads permanently with crypto</string>
+    <string name="recent_desc">Quickly access recently opened files</string>
+    <string name="share_desc">Share files via apps and cloud services</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_current_language">Current Language</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_auto">Auto</string>
+    <string name="settings_ads">Ads &amp; Payment</string>
+    <string name="settings_ads_enabled">Ads are enabled</string>
+    <string name="settings_ads_desc">Remove ads permanently with a one-time crypto payment</string>
+    <string name="settings_ads_removed">Ads Removed</string>
+    <string name="settings_ads_verified_blockchain">Verified via Blockchain</string>
+    <string name="settings_remove_ads_btn">Remove Ads (Crypto Payment)</string>
+    <string name="settings_verified_date">Verified</string>
+    <string name="settings_payment_method">Method</string>
+    <string name="settings_txid">TXID</string>
+    <string name="settings_storage">Storage</string>
+    <string name="settings_processed_files">Processed files</string>
+    <string name="settings_total_size">Total size</string>
+    <string name="settings_cache_size">Cache size</string>
+    <string name="settings_clear_cache">Clear Cache</string>
+    <string name="settings_delete_all">Delete All Files</string>
+    <string name="settings_delete_confirm_title">Delete all files?</string>
+    <string name="settings_delete_confirm_msg">All processed PDFs, images, and generated files will be permanently deleted. This cannot be undone.</string>
+    <string name="settings_about">About</string>
+    <string name="settings_dev_info">Developed by PdfPRO Team</string>
+    <string name="settings_contact">Contact Support</string>
+    <string name="settings_privacy">Privacy Policy</string>
+    <string name="settings_terms">Terms of Use</string>
+
+    <!-- File Manager -->
+    <string name="fm_title">File Manager</string>
+    <string name="fm_all_files">All Files</string>
+    <string name="fm_recent">Recent Files</string>
+    <string name="fm_favorites">Favorites</string>
+    <string name="fm_search_hint">Search files�</string>
+    <string name="fm_loading">Loading files�</string>
+    <string name="fm_empty">No files yet. Process a PDF to see it here.</string>
+    <string name="fm_no_results">No files match your search</string>
+    <string name="fm_no_recent">No recent files</string>
+    <string name="fm_no_favorites">No favorites yet</string>
+    <string name="clear_all">Clear All</string>
+    <string name="sort_name">Name</string>
+    <string name="sort_size">Size</string>
+    <string name="sort_date">Date</string>
+    <string name="sort_type">Type</string>
+    <string name="folder_converted">Converted</string>
+    <string name="folder_compressed">Compressed</string>
+    <string name="folder_merged">Merged</string>
+    <string name="folder_signed">Signed</string>
+    <string name="folder_extracted">Extracted</string>
+    <string name="folder_ocr">OCR</string>
+    <string name="dir_downloads">Downloads</string>
+    <string name="dir_documents">Documents</string>
+    <string name="dir_pictures">Pictures</string>
+    <string name="action_open">Open</string>
+    <string name="action_share">Share</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_duplicate">Duplicate</string>
+    <string name="action_move">Move to�</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="delete_confirm">Delete \"%1$s\"? This cannot be undone.</string>
+    <string name="checked">Checked</string>
+    <string name="import_pdf">Import PDF</string>
+    <string name="import_images">Import Images</string>
+    <string name="cloud_gdrive">Google Drive</string>
+    <string name="cloud_dropbox">Dropbox</string>
+    <string name="cloud_onedrive">OneDrive</string>
+    <string name="share_title">Share Files</string>
+    <string name="share_pick_files">Pick files to share</string>
+    <string name="share_pick_files_desc">Select PDF, images, or documents</string>
+    <string name="share_whatsapp">WhatsApp</string>
+    <string name="share_telegram">Telegram</string>
+    <string name="share_email">Email</string>
+    <string name="share_direct">Direct Share</string>
+    <string name="export_cloud">Export to Cloud</string>
+    <string name="open_with">Open with�</string>
+    <string name="viewer_loading">Loading PDF�</string>
+    <string name="viewer_rendering">Rendering page�</string>
+    <string name="viewer_pages">Pages</string>
+    <string name="error_file_missing">File not found. It may have been moved or deleted.</string>
+    <string name="error_file_empty">The file is empty and cannot be processed.</string>
+    <string name="error_permission">Permission denied. Please grant storage access.</string>
+    <string name="error_corrupted_pdf">The PDF file is corrupted or invalid.</string>
+    <string name="error_unsupported">This file format is not supported.</string>
+    <string name="error_storage_full">Storage is almost full. Free up space and try again.</string>
+    <string name="error_cloud_import">Could not import from cloud. Please download manually.</string>
+    <string name="error_generic">An unexpected error occurred. Please try again.</string>
+    <string name="pages">pages</string>
+
+    <!-- Tools -->
+    <string name="cat_edit">Edit PDF</string>
+    <string name="cat_convert">Convert</string>
+    <string name="cat_extract">Extract</string>
+    <string name="cat_security">Security</string>
+    <string name="cat_ocr">OCR</string>
+    <string name="tool_merge" translatable="false">?</string>
+    <string name="tool_split" translatable="false">?</string>
+    <string name="tool_compress" translatable="false">?</string>
+    <string name="tool_reorder" translatable="false">?</string>
+    <string name="tool_delete_pages" translatable="false">?</string>
+    <string name="tool_rotate" translatable="false">?</string>
+    <string name="tool_add_pages" translatable="false">?</string>
+    <string name="tool_fill_forms" translatable="false">?</string>
+    <string name="tool_sign" translatable="false">?</string>
+    <string name="tool_merge_desc">Merge multiple PDFs into one</string>
+    <string name="tool_split_desc">Split a PDF into separate files</string>
+    <string name="tool_compress_desc">Reduce PDF file size</string>
+    <string name="tool_reorder_desc">Rearrange page order</string>
+    <string name="tool_delete_pages_desc">Remove unwanted pages</string>
+    <string name="tool_rotate_desc">Rotate pages left or right</string>
+    <string name="tool_add_pages_desc">Add blank, image, or PDF pages</string>
+    <string name="tool_fill_forms_desc">Fill in PDF form fields</string>
+    <string name="tool_sign_desc">Sign with handwritten or image signature</string>
+    <string name="tool_img_to_pdf_desc">Convert images to a PDF</string>
+    <string name="tool_pdf_to_img_desc">Convert PDF pages to images</string>
+    <string name="tool_pdf_to_txt_desc">Extract text from PDF</string>
+    <string name="tool_pdf_to_word_desc">Convert PDF to Word document</string>
+    <string name="tool_word_to_pdf_desc">Convert Word to PDF</string>
+    <string name="tool_excel_to_pdf_desc">Convert Excel to PDF</string>
+    <string name="tool_pptx_to_pdf_desc">Convert PowerPoint to PDF</string>
+    <string name="tool_extract_text_desc">Extract all text content</string>
+    <string name="tool_extract_images_desc">Extract embedded images</string>
+    <string name="tool_extract_tables_desc">Detect and extract tables</string>
+    <string name="tool_protect_desc">Add password protection (AES-256)</string>
+    <string name="tool_unlock_desc">Remove PDF password</string>
+    <string name="tool_watermark_desc">Add text or image watermark</string>
+    <string name="tool_ocr_desc">Extract text from scanned PDFs/images</string>
+    <string name="compress_low">Low</string>
+    <string name="compress_medium">Medium</string>
+    <string name="compress_high">High</string>
+    <string name="page_a4">A4</string>
+    <string name="page_letter">Letter</string>
+    <string name="page_a3">A3</string>
+    <string name="page_legal">Legal</string>
+    <string name="page_size_label">Page Size</string>
+    <string name="pick_file">Pick a File</string>
+    <string name="pick_files">Pick Files</string>
+    <string name="pick_target_pdf">Pick target PDF</string>
+    <string name="pick_source_pdf">Pick source PDF</string>
+    <string name="source_pages_hint">Source pages (e.g. 1-3, 5)</string>
+    <string name="range_hint">Page ranges (e.g. 1-3, 5, 7-10)</string>
+    <string name="select_pages_delete">Select pages to delete</string>
+    <string name="select_pages_rotate">Select pages to rotate</string>
+    <string name="add_blank">Blank Pages</string>
+    <string name="add_from_images">From Images</string>
+    <string name="add_from_pdf">From Another PDF</string>
+    <string name="no_forms">No form fields detected in this PDF.</string>
+    <string name="sign_draw">Draw Signature</string>
+    <string name="sign_upload">Upload Image Signature</string>
+    <string name="sign_clear">Clear</string>
+    <string name="sign_save">Save Signature</string>
+    <string name="sign_ready">Signature saved</string>
+    <string name="sign_page_label">Page Number</string>
+    <string name="wm_text">Text</string>
+    <string name="wm_image">Image</string>
+    <string name="wm_text_label">Watermark text</string>
+    <string name="wm_opacity" translatable="false">Opacity: %1$d%%</string>
+    <string name="wm_position">Position</string>
+    <string name="wm_tl">TL</string>
+    <string name="wm_tc">TC</string>
+    <string name="wm_tr">TR</string>
+    <string name="wm_c">C</string>
+    <string name="wm_bl">BL</string>
+    <string name="wm_bc">BC</string>
+    <string name="wm_br">BR</string>
+    <string name="ocr_pdf">PDF File</string>
+    <string name="ocr_image">Image File</string>
+    <string name="password_label">Password</string>
+    <string name="orig_size">Original size</string>
+
+    <!-- Processing -->
+    <string name="proc_processing">Processing�</string>
+    <string name="proc_reading">Reading file %1$d of %2$d�</string>
+    <string name="proc_saving">Saving�</string>
+    <string name="proc_splitting">Splitting part %1$d of %2$d�</string>
+    <string name="proc_compressing">Compressing�</string>
+    <string name="proc_rendering">Rendering page %1$d of %2$d�</string>
+    <string name="proc_converting">Converting %1$d of %2$d�</string>
+    <string name="proc_extracting_text">Extracting text�</string>
+    <string name="proc_scanning">Scanning page %1$d of %2$d�</string>
+    <string name="proc_detecting_tables">Detecting tables�</string>
+    <string name="proc_encrypting">Encrypting�</string>
+    <string name="proc_decrypting">Decrypting�</string>
+    <string name="proc_watermarking">Adding watermark to page %1$d of %2$d�</string>
+    <string name="proc_filling">Filling form fields�</string>
+    <string name="proc_signing">Applying signature�</string>
+    <string name="proc_adding_images">Adding image %1$d of %2$d�</string>
+    <string name="proc_ocr_processing">Running OCR�</string>
+    <string name="proc_ocr_page">OCR page %1$d of %2$d�</string>
+    <string name="proc_reading_doc">Reading document�</string>
+    <string name="proc_reading_sheet">Reading sheet %1$d of %2$d�</string>
+    <string name="proc_reading_slides">Reading slides�</string>
+    <string name="proc_sheet">Sheet %1$d of %2$d</string>
+    <string name="proc_slide">Slide %1$d of %2$d</string>
+    <string name="proc_creating_doc">Creating document�</string>
+    <string name="proc_success">Done successfully!</string>
+    <string name="proc_open">Open File</string>
+    <string name="proc_done">Done</string>
+    <string name="proc_error">Error</string>
+    <string name="proc_retry">Retry</string>
+    <string name="proc_back">Back</string>
+    <string name="proc_merge_btn">Merge PDFs</string>
+    <string name="proc_split_btn">Split PDF</string>
+    <string name="proc_compress_btn">Compress</string>
+    <string name="proc_save_btn">Save</string>
+    <string name="proc_delete_btn">Delete %1$d Pages</string>
+    <string name="proc_rotate_btn">Apply Rotation</string>
+    <string name="proc_add_btn">Add Pages</string>
+    <string name="proc_fill_btn">Fill &amp; Save</string>
+    <string name="proc_sign_btn">Sign PDF</string>
+    <string name="proc_convert_btn">Convert</string>
+    <string name="proc_protect_btn">Protect PDF</string>
+    <string name="proc_unlock_btn">Unlock PDF</string>
+    <string name="proc_watermark_btn">Apply Watermark</string>
+    <string name="proc_ocr_btn">Run OCR</string>
+    <string name="proc_merge_done">PDFs merged successfully</string>
+    <string name="proc_split_done">PDF split into %1$d files</string>
+    <string name="proc_compress_done">%1$s ? %2$s</string>
+    <string name="proc_reorder_done">Pages reordered</string>
+    <string name="proc_delete_done">Pages deleted</string>
+    <string name="proc_rotate_done">Pages rotated</string>
+    <string name="proc_add_done">Pages added</string>
+    <string name="proc_fill_done">Form filled</string>
+    <string name="proc_sign_done">PDF signed</string>
+    <string name="proc_img_to_pdf_done">Images converted to PDF</string>
+    <string name="proc_pdf_to_img_done">%1$d pages exported as images</string>
+    <string name="proc_pdf_to_txt_done">Text extracted</string>
+    <string name="proc_pdf_to_word_done">Converted to Word</string>
+    <string name="proc_word_to_pdf_done">Word converted to PDF</string>
+    <string name="proc_excel_to_pdf_done">Excel converted to PDF</string>
+    <string name="proc_pptx_to_pdf_done">PowerPoint converted to PDF</string>
+    <string name="proc_extract_text_done">Text extracted</string>
+    <string name="proc_extract_images_done">%1$d images extracted</string>
+    <string name="proc_extract_tables_done">Tables extracted as CSV</string>
+    <string name="proc_protect_done">PDF protected with password</string>
+    <string name="proc_unlock_done">PDF unlocked</string>
+    <string name="proc_watermark_done">Watermark applied</string>
+    <string name="proc_ocr_done">OCR complete � text saved</string>
+
+    <!-- Payment -->
+    <string name="payment_title">Remove Ads</string>
+    <string name="payment_subtitle">Crypto Payment � Permanent</string>
+    <string name="payment_select_coin">Select Cryptocurrency</string>
+    <string name="payment_price_note">Price: %1$s equivalent (any of the coins below)</string>
+    <string name="payment_warning">Payment is irreversible. Double-check the address and network before sending.</string>
+    <string name="payment_scan_qr">Scan QR Code or copy the address below</string>
+    <string name="payment_qr_desc">Wallet QR code</string>
+    <string name="payment_wallet_label">Wallet Address</string>
+    <string name="payment_copy">Copy Address</string>
+    <string name="payment_copied">Address copied to clipboard</string>
+    <string name="payment_instructions_title">Payment Instructions</string>
+    <string name="payment_enter_txid_title">Enter Transaction Hash</string>
+    <string name="payment_enter_txid_desc">After sending payment, paste the TXID / Transaction Hash from your wallet here to verify.</string>
+    <string name="payment_verify_btn">Verify Payment</string>
+    <string name="payment_verifying">Verifying on Blockchain�</string>
+    <string name="payment_verifying_desc">Checking transaction details. This may take a few seconds.</string>
+    <string name="payment_error_title">Verification Failed</string>
+    <string name="payment_try_again">Try Again</string>
+    <string name="payment_success_title">Payment Verified!</string>
+    <string name="payment_success_desc">Ads have been permanently removed. Thank you for your support!</string>
+    <string name="payment_unlocked_title">Ads Removed</string>
+    <string name="payment_unlocked_desc">You have already removed ads. Enjoy the ad-free experience.</string>
+    <string name="coin_btc">Bitcoin (BTC)</string>
+    <string name="coin_ltc">Litecoin (LTC)</string>
+    <string name="coin_usdt">USDT (TRC20)</string>
+    <string name="network_btc">Bitcoin Network</string>
+    <string name="network_ltc">Litecoin Network</string>
+    <string name="network_usdt">TRON Network (TRC20 only)</string>
+    <string name="inst_1_amount">Send exactly $5 equivalent of the selected cryptocurrency.</string>
+    <string name="inst_2_send">Send to the wallet address shown above.</string>
+    <string name="inst_2_send_trc20">Send USDT on TRC20 network to the address above.</string>
+    <string name="inst_3_wait">Wait for at least 1 blockchain confirmation.</string>
+    <string name="inst_4_enter">Enter the transaction hash (TXID) below and tap Verify.</string>
+    <string name="inst_important">Important:</string>
+    <string name="inst_trc20_only">Only send USDT on the TRC20 network. Sending on ERC20, BEP20, or any other network will result in permanent loss of funds.</string>
+    <string name="ad_remove">Remove Ads</string>
+    <string name="ad_inline">Support PdfPRO � </string>
+</resources>
+
+
+
+
+ Remaining 7 Language Files � FINAL ADDITIONS
+
+For each of values-de, values-fr, values-zh, values-ru, values-ar, values-es, values-tr, add these additional strings before </resources> (the existing strings from Parts 3 and 4 are already there):
+
+**Settings strings (add to ALL 7):**
+
+xml
+    <!-- Settings -->
+    <string name="settings_title">[translated below]</string>
+    <string name="settings_language">[translated below]</string>
+    <string name="settings_current_language">[translated below]</string>
+    <string name="settings_theme">[translated below]</string>
+    <string name="theme_light">[translated below]</string>
+    <string name="theme_dark">[translated below]</string>
+    <string name="theme_auto">[translated below]</string>
+    <string name="settings_ads">[translated below]</string>
+    <string name="settings_ads_enabled">[translated below]</string>
+    <string name="settings_ads_desc">[translated below]</string>
+    <string name="settings_ads_removed">[translated below]</string>
+    <string name="settings_ads_verified_blockchain">[translated below]</string>
+    <string name="settings_remove_ads_btn">[translated below]</string>
+    <string name="settings_verified_date">[translated below]</string>
+    <string name="settings_payment_method">[translated below]</string>
+    <string name="settings_txid">TXID</string>
+    <string name="settings_storage">[translated below]</string>
+    <string name="settings_processed_files">[translated below]</string>
+    <string name="settings_total_size">[translated below]</string>
+    <string name="settings_cache_size">[translated below]</string>
+    <string name="settings_clear_cache">[translated below]</string>
+    <string name="settings_delete_all">[translated below]</string>
+    <string name="settings_delete_confirm_title">[translated below]</string>
+    <string name="settings_delete_confirm_msg">[translated below]</string>
+    <string name="settings_about">[translated below]</string>
+    <string name="settings_dev_info">[translated below]</string>
+    <string name="settings_contact">[translated below]</string>
+    <string name="settings_privacy">[translated below]</string>
+    <string name="settings_terms">[translated below]</string>
+    <string name="home_files_desc">[translated below]</string>
+    <string name="home_fav_desc">[translated below]</string>
+    <string name="home_ads_desc">[translated below]</string>
+
+
+**Per-language values for the above keys:**
+
+**German (values-de):**
+xml
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_language">Sprache</string>
+    <string name="settings_current_language">Aktuelle Sprache</string>
+    <string name="settings_theme">Design</string>
+    <string name="theme_light">Hell</string>
+    <string name="theme_dark">Dunkel</string>
+    <string name="theme_auto">Automatisch</string>
+    <string name="settings_ads">Werbung &amp; Zahlung</string>
+    <string name="settings_ads_enabled">Werbung ist aktiv</string>
+    <string name="settings_ads_desc">Werbung dauerhaft mit Krypto-Zahlung entfernen</string>
+    <string name="settings_ads_removed">Werbung entfernt</string>
+    <string name="settings_ads_verified_blockchain">�ber Blockchain verifiziert</string>
+    <string name="settings_remove_ads_btn">Werbung entfernen (Krypto)</string>
+    <string name="settings_verified_date">Verifiziert</string>
+    <string name="settings_payment_method">Methode</string>
+    <string name="settings_storage">Speicher</string>
+    <string name="settings_processed_files">Verarbeitete Dateien</string>
+    <string name="settings_total_size">Gesamtgr��e</string>
+    <string name="settings_cache_size">Cache-Gr��e</string>
+    <string name="settings_clear_cache">Cache leeren</string>
+    <string name="settings_delete_all">Alle Dateien l�schen</string>
+    <string name="settings_delete_confirm_title">Alle Dateien l�schen?</string>
+    <string name="settings_delete_confirm_msg">Alle verarbeiteten Dateien werden dauerhaft gel�scht.</string>
+    <string name="settings_about">�ber</string>
+    <string name="settings_dev_info">Entwickelt vom PdfPRO-Team</string>
+    <string name="settings_contact">Support kontaktieren</string>
+    <string name="settings_privacy">Datenschutzrichtlinie</string>
+    <string name="settings_terms">Nutzungsbedingungen</string>
+    <string name="home_files_desc">PDF-Dateien durchsuchen und verwalten</string>
+    <string name="home_fav_desc">Auf Favoriten zugreifen</string>
+    <string name="home_ads_desc">Werbung dauerhaft mit Krypto entfernen</string>
+
+
+**French (values-fr):**
+xml
+    <string name="settings_title">Param�tres</string>
+    <string name="settings_language">Langue</string>
+    <string name="settings_current_language">Langue actuelle</string>
+    <string name="settings_theme">Th�me</string>
+    <string name="theme_light">Clair</string>
+    <string name="theme_dark">Sombre</string>
+    <string name="theme_auto">Auto</string>
+    <string name="settings_ads">Pubs &amp; Paiement</string>
+    <string name="settings_ads_enabled">Les pubs sont activ�es</string>
+    <string name="settings_ads_desc">Supprimer les pubs avec un paiement crypto</string>
+    <string name="settings_ads_removed">Pubs supprim�es</string>
+    <string name="settings_ads_verified_blockchain">V�rifi� via Blockchain</string>
+    <string name="settings_remove_ads_btn">Supprimer les pubs (Crypto)</string>
+    <string name="settings_verified_date">V�rifi�</string>
+    <string name="settings_payment_method">M�thode</string>
+    <string name="settings_storage">Stockage</string>
+    <string name="settings_processed_files">Fichiers trait�s</string>
+    <string name="settings_total_size">Taille totale</string>
+    <string name="settings_cache_size">Taille du cache</string>
+    <string name="settings_clear_cache">Vider le cache</string>
+    <string name="settings_delete_all">Supprimer tout</string>
+    <string name="settings_delete_confirm_title">Supprimer tous les fichiers ?</string>
+    <string name="settings_delete_confirm_msg">Tous les fichiers g�n�r�s seront supprim�s d�finitivement.</string>
+    <string name="settings_about">� propos</string>
+    <string name="settings_dev_info">D�velopp� par l\'�quipe PdfPRO</string>
+    <string name="settings_contact">Contacter le support</string>
+    <string name="settings_privacy">Politique de confidentialit�</string>
+    <string name="settings_terms">Conditions d\'utilisation</string>
+    <string name="home_files_desc">Parcourir et g�rer vos PDF</string>
+    <string name="home_fav_desc">Acc�der � vos favoris</string>
+    <string name="home_ads_desc">Supprimer les pubs avec un paiement crypto</string>
+
+
+**Chinese (values-zh):**
+xml
+    <string name="settings_title">??</string>
+    <string name="settings_language">??</string>
+    <string name="settings_current_language">????</string>
+    <string name="settings_theme">??</string>
+    <string name="theme_light">??</string>
+    <string name="theme_dark">??</string>
+    <string name="theme_auto">????</string>
+    <string name="settings_ads">?????</string>
+    <string name="settings_ads_enabled">?????</string>
+    <string name="settings_ads_desc">?????????????????</string>
+    <string name="settings_ads_removed">?????</string>
+    <string name="settings_ads_verified_blockchain">????????</string>
+    <string name="settings_remove_ads_btn">????????????</string>
+    <string name="settings_verified_date">????</string>
+    <string name="settings_payment_method">??</string>
+    <string name="settings_storage">??</string>
+    <string name="settings_processed_files">?????</string>
+    <string name="settings_total_size">???</string>
+    <string name="settings_cache_size">????</string>
+    <string name="settings_clear_cache">????</string>
+    <string name="settings_delete_all">??????</string>
+    <string name="settings_delete_confirm_title">???????</string>
+    <string name="settings_delete_confirm_msg">????????????????????</string>
+    <string name="settings_about">??</string>
+    <string name="settings_dev_info">PdfPRO ????</string>
+    <string name="settings_contact">????</string>
+    <string name="settings_privacy">????</string>
+    <string name="settings_terms">????</string>
+    <string name="home_files_desc">?????PDF??</string>
+    <string name="home_fav_desc">???????</string>
+    <string name="home_ads_desc">??????????????</string>
+
+
+**Russian (values-ru):**
+xml
+    <string name="settings_title">?????????</string>
+    <string name="settings_language">????</string>
+    <string name="settings_current_language">??????? ????</string>
+    <string name="settings_theme">????</string>
+    <string name="theme_light">???????</string>
+    <string name="theme_dark">??????</string>
+    <string name="theme_auto">????</string>
+    <string name="settings_ads">??????? ? ??????</string>
+    <string name="settings_ads_enabled">??????? ????????</string>
+    <string name="settings_ads_desc">??????? ??????? ???????? ? ??????? ??????-??????</string>
+    <string name="settings_ads_removed">??????? ???????</string>
+    <string name="settings_ads_verified_blockchain">???????????? ????? ????????</string>
+    <string name="settings_remove_ads_btn">?????? ??????? (??????)</string>
+    <string name="settings_verified_date">????????????</string>
+    <string name="settings_payment_method">?????</string>
+    <string name="settings_storage">?????????</string>
+    <string name="settings_processed_files">???????????? ??????</string>
+    <string name="settings_total_size">????? ??????</string>
+    <string name="settings_cache_size">?????? ????</string>
+    <string name="settings_clear_cache">???????? ???</string>
+    <string name="settings_delete_all">??????? ??? ?????</string>
+    <string name="settings_delete_confirm_title">??????? ??? ??????</string>
+    <string name="settings_delete_confirm_msg">??? ???????????? ????? ????? ??????? ????????.</string>
+    <string name="settings_about">? ??????????</string>
+    <string name="settings_dev_info">??????????? ???????? PdfPRO</string>
+    <string name="settings_contact">????????? ? ??????????</string>
+    <string name="settings_privacy">???????? ??????????????????</string>
+    <string name="settings_terms">??????? ?????????????</string>
+    <string name="home_files_desc">???????? ? ?????????? PDF</string>
+    <string name="home_fav_desc">?????? ? ????????? ??????</string>
+    <string name="home_ads_desc">?????? ??????? ? ??????? ??????-??????</string>
+
+
+**Arabic (values-ar):**
+xml
+    <string name="settings_title">?????????</string>
+    <string name="settings_language">?????</string>
+    <string name="settings_current_language">????? ???????</string>
+    <string name="settings_theme">??????</string>
+    <string name="theme_light">????</string>
+    <string name="theme_dark">????</string>
+    <string name="theme_auto">??????</string>
+    <string name="settings_ads">????????? ??????</string>
+    <string name="settings_ads_enabled">????????? ??????</string>
+    <string name="settings_ads_desc">??? ????????? ??????? ???? ???????? ???????</string>
+    <string name="settings_ads_removed">??? ????? ?????????</string>
+    <string name="settings_ads_verified_blockchain">?? ?????? ??? ??????????</string>
+    <string name="settings_remove_ads_btn">????? ????????? (????? ?????)</string>
+    <string name="settings_verified_date">????? ??????</string>
+    <string name="settings_payment_method">???????</string>
+    <string name="settings_storage">???????</string>
+    <string name="settings_processed_files">??????? ????????</string>
+    <string name="settings_total_size">????? ????????</string>
+    <string name="settings_cache_size">??? ??????? ??????</string>
+    <string name="settings_clear_cache">??? ??????? ??????</string>
+    <string name="settings_delete_all">??? ???? ???????</string>
+    <string name="settings_delete_confirm_title">??? ???? ????????</string>
+    <string name="settings_delete_confirm_msg">???? ??? ???? ??????? ??????? ??? ???? ???????.</string>
+    <string name="settings_about">??? ???????</string>
+    <string name="settings_dev_info">????? ???? PdfPRO</string>
+    <string name="settings_contact">???? ??????</string>
+    <string name="settings_privacy">????? ????????</string>
+    <string name="settings_terms">???? ?????????</string>
+    <string name="home_files_desc">???? ?????? ????? PDF</string>
+    <string name="home_fav_desc">?????? ??? ??????? ???????</string>
+    <string name="home_ads_desc">????? ????????? ?????? ???????? ???????</string>
+
+
+**Spanish (values-es):**
+xml
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_current_language">Idioma actual</string>
+    <string name="settings_theme">Tema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="theme_auto">Autom�tico</string>
+    <string name="settings_ads">Anuncios y pago</string>
+    <string name="settings_ads_enabled">Los anuncios est�n activados</string>
+    <string name="settings_ads_desc">Elimina anuncios con un pago crypto �nico</string>
+    <string name="settings_ads_removed">Anuncios eliminados</string>
+    <string name="settings_ads_verified_blockchain">Verificado v�a Blockchain</string>
+    <string name="settings_remove_ads_btn">Eliminar anuncios (Crypto)</string>
+    <string name="settings_verified_date">Verificado</string>
+    <string name="settings_payment_method">M�todo</string>
+    <string name="settings_storage">Almacenamiento</string>
+    <string name="settings_processed_files">Archivos procesados</string>
+    <string name="settings_total_size">Tama�o total</string>
+    <string name="settings_cache_size">Tama�o de cach�</string>
+    <string name="settings_clear_cache">Limpiar cach�</string>
+    <string name="settings_delete_all">Eliminar todo</string>
+    <string name="settings_delete_confirm_title">�Eliminar todos los archivos?</string>
+    <string name="settings_delete_confirm_msg">Todos los archivos generados se eliminar�n permanentemente.</string>
+    <string name="settings_about">Acerca de</string>
+    <string name="settings_dev_info">Desarrollado por el equipo PdfPRO</string>
+    <string name="settings_contact">Contactar soporte</string>
+    <string name="settings_privacy">Pol�tica de privacidad</string>
+    <string name="settings_terms">T�rminos de uso</string>
+    <string name="home_files_desc">Explorar y gestionar tus PDF</string>
+    <string name="home_fav_desc">Acceder a tus favoritos</string>
+    <string name="home_ads_desc">Eliminar anuncios con pago crypto</string>
+
+
+**Turkish (values-tr):**
+xml
+    <string name="settings_title">Ayarlar</string>
+    <string name="settings_language">Dil</string>
+    <string name="settings_current_language">Mevcut Dil</string>
+    <string name="settings_theme">Tema</string>
+    <string name="theme_light">A�?k</string>
+    <string name="theme_dark">Koyu</string>
+    <string name="theme_auto">Otomatik</string>
+    <string name="settings_ads">Reklamlar ve �deme</string>
+    <string name="settings_ads_enabled">Reklamlar etkin</string>
+    <string name="settings_ads_desc">Kripto �demeyle reklamlar? kal?c? olarak kald?r</string>
+    <string name="settings_ads_removed">Reklamlar kald?r?ld?</string>
+    <string name="settings_ads_verified_blockchain">Blockchain ile do?ruland?</string>
+    <string name="settings_remove_ads_btn">Reklamlar? Kald?r (Kripto)</string>
+    <string name="settings_verified_date">Do?ruland?</string>
+    <string name="settings_payment_method">Y�ntem</string>
+    <string name="settings_storage">Depolama</string>
+    <string name="settings_processed_files">??lenen dosyalar</string>
+    <string name="settings_total_size">Toplam boyut</string>
+    <string name="settings_cache_size">�nbellek boyutu</string>
+    <string name="settings_clear_cache">�nbelle?i temizle</string>
+    <string name="settings_delete_all">T�m�n� sil</string>
+    <string name="settings_delete_confirm_title">T�m dosyalar silinsin mi?</string>
+    <string name="settings_delete_confirm_msg">T�m i?lenen dosyalar kal?c? olarak silinecektir.</string>
+    <string name="settings_about">Hakk?nda</string>
+    <string name="settings_dev_info">PdfPRO ekibi taraf?ndan geli?tirildi</string>
+    <string name="settings_contact">Destekle ileti?ime ge�</string>
+    <string name="settings_privacy">Gizlilik politikas?</string>
+    <string name="settings_terms">Kullan?m ko?ullar?</string>
+    <string name="home_files_desc">PDF dosyalar?n? g�r�nt�le ve y�net</string>
+    <string name="home_fav_desc">Favorilere eri?</string>
+    <string name="home_ads_desc">Kripto �demeyle reklamlar? kal?c? olarak kald?r</string>
+
+
+
+
+ BUILD THE APK � Complete Instructions
+
+All 5 parts are now assembled. To build the final APK:
+
+ Step 1: Project Structure
+Create the directory tree matching all package paths:
+
+app/src/main/java/com/pdfpro/app/
+??? PdfProApp.kt
+??? BaseActivity.kt
+??? SplashActivity.kt
+??? LanguageSelectionActivity.kt
+??? MainActivity.kt
+??? language/
+?   ??? LanguageManager.kt
+??? model/
+?   ??? ToolModels.kt
+?   ??? FileInfoModels.kt
+??? theme/
+?   ??? Color.kt
+?   ??? Theme.kt
+?   ??? Typography.kt
+??? preferences/
+?   ??? ThemeManager.kt
+?   ??? SettingsViewModel.kt
+??? engine/
+?   ??? PdfEngine.kt
+?   ??? ConversionEngine.kt
+?   ??? OcrEngine.kt
+??? storage/
+?   ??? StorageManager.kt
+?   ??? RecentFilesManager.kt
+?   ??? FavoritesManager.kt
+?   ??? ThumbnailCache.kt
+?   ??? ShareManager.kt
+?   ??? FileActionsHandler.kt
+??? payment/
+?   ??? CoinType.kt
+?   ??? CryptoAddresses.kt
+?   ??? TronAddressUtils.kt
+?   ??? BlockchainApiService.kt
+?   ??? PaymentVerificationManager.kt
+?   ??? AdManager.kt
+?   ??? QrCodeGenerator.kt
+?   ??? PaymentViewModel.kt
+?   ??? PaymentScreen.kt
+?   ??? AdBanner.kt
+??? ui/
+?   ??? screens/
+?   ?   ??? MainScreen.kt
+?   ?   ??? HomeScreen.kt
+?   ?   ??? PlaceholderScreens.kt
+?   ??? viewer/
+?   ?   ??? PdfViewerActivity.kt
+?   ??? filemanager/
+?   ?   ??? FileManagerViewModel.kt
+?   ?   ??? FileManagerScreen.kt
+?   ?   ??? ErrorHandling.kt
+?   ??? settings/
+?   ?   ??? SettingsScreen.kt
+?   ??? screens/tools/
+?   ?   ??? ToolsHubScreen.kt
+?   ?   ??? EditToolScreens.kt
+?   ?   ??? ConversionToolScreens.kt
+?   ??? components/
+?       ??? SharedComponents.kt
+app/src/main/res/
+??? values/
+?   ??? strings.xml
+?   ??? colors.xml
+?   ??? themes.xml
+??? values-de/ ? values-fr/ ? values-zh/ ? values-ru/ ? values-ar/ ? values-es/ ? values-tr/
+?   ??? strings.xml (each)
+??? drawable/
+?   ??? ic_launcher_foreground.xml
+?   ??? ic_launcher_background.xml
+??? mipmap-anydpi-v26/
+?   ??? ic_launcher.xml
+?   ??? ic_launcher_round.xml
+??? xml/
+?   ??? file_provider_paths.xml
+
+
+ Step 2: Build
+bash
+ In Android Studio
+Build ? Clean Project
+Build ? Rebuild Project
+Build ? Build Bundle(s) / APK(s) ? Build APK(s)
+
+ Or via command line
+./gradlew assembleDebug
+
+
+ Step 3: APK Location
+
+app/build/outputs/apk/debug/app-debug.apk
+
+
+ APK to Install on Device
+The generated app-debug.apk is ready to install on any Android 7.0+ (API 24+) device.
+
+
+
+ Final Delivery Summary � All 5 Parts
+
+| Part | What Was Delivered |
+|||
+| **Part 1** | Project init, app name, folder+lightning icon, splash with fade-in, 8-language selection, theme system, bottom navigation |
+| **Part 2** | 9 edit tools (merge/split/compress/reorder/delete/rotate/add pages/fill forms/sign), 7 convert tools (img?PDF/PDF?img/PDF?txt/PDF?Word/Excel?PDF/PPTX?PDF), 3 extract tools (text/images/tables), 3 security tools (protect/unlock/watermark), offline OCR with ML Kit |
+| **Part 3** | Full file manager with sort/search/thumbnails, recent files, favorites, PDF viewer with zoom/swipe, structured storage folders, share to WhatsApp/Telegram/Email/cloud, import from device/cloud, robust error handling |
+| **Part 4** | Crypto payment screen with BTC/LTC/USDT selection, QR code generation, TXID verification via mempool.space/blockcypher/TronGrid APIs, anti-fraud checks, EncryptedSharedPreferences + HMAC backup for unlock persistence, ad banner system |
+| **Part 5** | Settings screen (language/theme/ads status/storage/app info), instant theme switching (light/dark/auto), instant language switching, complete 8-language localization, full navigation wiring connecting all 25+ screens, final error handling |
+
